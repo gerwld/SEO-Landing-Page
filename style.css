@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  min-width: 1441px;
+  min-width: 1440px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
 }
@@ -52,6 +52,10 @@ body {
   padding: 15px 10px;
   color: #fff;
   transition: 0.4s;
+}
+
+.list-btn a {
+  padding: 15px 0;
 }
 
 .main-menu a:hover {

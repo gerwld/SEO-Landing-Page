@@ -245,3 +245,7 @@ h2 {
 
   margin-top: 50px;
 }
+
+.btn-rank:hover {
+  background-color: #87dada;
+}

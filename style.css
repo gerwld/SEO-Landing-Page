@@ -313,6 +313,7 @@ h2 {
 .discover-1,
 .discover-3 {
   align-self: flex-end;
+  background-color: rgba(0, 210, 173, 0.05);
 }
 
 .discover-sections {
@@ -323,7 +324,7 @@ h2 {
 
 .solutions-section {
   display: block;
-  margin: 155px 0;
+  margin: 120px 0;
   text-align: center;
 }
 

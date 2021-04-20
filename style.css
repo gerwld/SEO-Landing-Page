@@ -365,7 +365,7 @@ h2 {
 .pricing-section {
   display: block;
   padding-top: 65px;
-  padding-bottom: 75px;
+  padding-bottom: 120px;
   text-align: center;
   color: #fff;
   background: linear-gradient(to left, #00D2D2, #1090F3);
@@ -404,4 +404,8 @@ h2 {
 
   font-weight: 600;
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-pricing:hover {
+  background-color: rgba(255, 255, 255, 0.6);
 }

@@ -37,13 +37,12 @@ body {
 }
 
 .main-menu ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 .main-menu li {
   display: inline;
+  padding: 0;
   margin-right: 28px;
 }
 
@@ -52,6 +51,10 @@ body {
   padding: 15px 10px;
   color: #fff;
   transition: 0.4s;
+}
+
+.list-btn a {
+  padding: 15px 0;
 }
 
 .main-menu a:hover {

@@ -338,3 +338,70 @@ h2 {
   margin-top: 10px;
   margin-bottom: 85px;
 }
+
+.price-table ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.price-table {
+  display: flex;
+  justify-content: space-between;
+  min-height: 480px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.price-table .pack{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 57px 75px;
+  width: 190px;
+}
+
+.pricing-section {
+  display: block;
+  padding-top: 65px;
+  padding-bottom: 75px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to left, #00D2D2, #1090F3);
+}
+
+.pricing-section h2 {
+  color: #fff;
+  margin-top: 24px;
+  margin-bottom: 80px;
+  font-size: 36px;
+}
+
+.pricing-section span {
+  font-size: 24px;
+}
+
+.pack span:nth-of-type(1) {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.pack h3 {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.pack li {
+  margin: 10px;
+}
+
+.btn-pricing {
+  padding: 16px 60px;
+  border: 2px solid rgba(255, 255, 255, 0.5);;
+
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.3);
+}

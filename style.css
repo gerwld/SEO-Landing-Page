@@ -13,6 +13,7 @@ body {
   font-size: 15px;
 }
 
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -50,6 +51,7 @@ body {
   text-decoration: none;
   padding: 10px;
   color: #fff;
+  transition: 0.4s;
 }
 
 .main-menu a:hover {
@@ -79,7 +81,6 @@ body {
   position: absolute;
   left: 0;
   background-color: #e3e3e3;
-
 }
 
 .list-element ul li {
@@ -112,6 +113,7 @@ body {
   color: #fff;
   font-size: 15px;
   font-weight: 400;
+  transition: 0.6s;
 }
 
 .button:hover {

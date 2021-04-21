@@ -1,4 +1,4 @@
 # SEO-Landing-Page
-Landing created to grow up my skills
+Landing i was create to grow up my skills
 
  https://gerwld.github.io/SEO-Landing-Page/

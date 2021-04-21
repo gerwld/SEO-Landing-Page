@@ -409,3 +409,60 @@ h2 {
 .btn-pricing:hover {
   background-color: rgba(255, 255, 255, 0.6);
 }
+
+.site-footer {
+  min-height: 280px;
+  background-color: rgba(16, 144, 243, 0.1);
+}
+
+.footer-grid {
+  display: grid;
+  min-height: 280px;
+  grid-template-columns: 50% 30% 20%;
+}
+
+.block-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.site-footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+
+}
+
+.site-footer nav a {
+  color: #3C444C;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.site-footer nav li {
+  padding: 4px;
+}
+
+.site-footer nav li:hover {
+  text-decoration: underline;
+}
+.site-footer nav a::before {
+  content: url("img/st.svg");
+  display: block;
+  position: absolute;
+  padding-right: 20px;
+  width: 5px;
+}
+
+.site-footer h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #3C444C;
+}

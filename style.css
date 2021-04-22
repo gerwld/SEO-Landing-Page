@@ -474,11 +474,17 @@ h2 {
 }
 
 .team-section {
-  display: block;
-  padding-top: 100px;
-  min-height: 580px;
+  display: flex;
+  justify-content: space-between;
+
+  padding: 80px 0;
+
   box-sizing: border-box;
   color: #3C444C;
+}
+
+.team-section h2 {
+  margin-top: 0;
 }
 
 .team-section p {
@@ -488,13 +494,13 @@ h2 {
 }
 
 .team-block {
-  display: inline-block;
-  background-color: #fff;
   width: 635px;
+  margin-bottom: 30px;
   border-radius: 20px;
   overflow:hidden;
-  color: rgba(60, 68, 76, 0.75);
 
+  background-color: #fff;
+  color: rgba(60, 68, 76, 0.75);
   box-shadow: 0 15px 30px 0 rgba(16, 144, 243, 0.1);
 }
 
@@ -544,5 +550,12 @@ h2 {
   font-weight: 600;
   color: #1090F3;
   background-color: transparent;
-  border: 2px solid #1090F3;
+  border: 3px solid #1090F3;
+}
+
+.btn-team:hover {
+  background-color: #cfeaff;
+
+.carousel-team {
+  width: 635px;
 }

@@ -410,6 +410,15 @@ h2 {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+.team-section {
+  display: block;
+  min-height: 580px;
+}
+
+.main-info {
+  width: 350px;
+}
+
 .site-footer {
   min-height: 280px;
   color: #3C444C;

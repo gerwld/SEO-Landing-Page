@@ -265,6 +265,7 @@ h2 {
   font-weight: 600;
 
   margin-top: 50px;
+  box-shadow: 0 10px 20px 0 rgba(16, 144, 243, 0.2);
 }
 
 .btn-rank:hover {
@@ -410,15 +411,6 @@ h2 {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-.team-section {
-  display: block;
-  min-height: 580px;
-}
-
-.main-info {
-  width: 350px;
-}
-
 .site-footer {
   min-height: 280px;
   color: #3C444C;
@@ -475,4 +467,82 @@ h2 {
   font-size: 20px;
   font-weight: normal;
   color: #3C444C;
+}
+
+.main-info {
+  width: 350px;
+}
+
+.team-section {
+  display: block;
+  padding-top: 100px;
+  min-height: 580px;
+  box-sizing: border-box;
+  color: #3C444C;
+}
+
+.team-section p {
+  margin: 0;
+  color: rgba(60, 68, 76, 0.75);
+  line-height: 180%;
+}
+
+.team-block {
+  display: inline-block;
+  background-color: #fff;
+  width: 635px;
+  border-radius: 20px;
+  overflow:hidden;
+  color: rgba(60, 68, 76, 0.75);
+
+  box-shadow: 0 15px 30px 0 rgba(16, 144, 243, 0.1);
+}
+
+.team-block img{
+  float: left;
+  width: 285px;
+}
+
+.about-pos {
+  float: right;
+  width: 350px;
+  min-height: 235px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  padding-left: 36px;
+  padding-right: 75px;
+  margin: 49px 0;
+}
+
+.about-pos h3 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+  color: #3C444C;
+}
+
+.about-pos p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.about-pos span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.btn-team {
+  padding: 12px 39px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1090F3;
+  background-color: transparent;
+  border: 2px solid #1090F3;
 }

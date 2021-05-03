@@ -1,5 +1,5 @@
 # SEO Landing Page
-Second Landing Page created for grow up my skills in HTML & CSS
+First Landing Page created for grow up my skills in HTML & CSS
 
 <b>Specification:</b><br>
 // Writed generally on Flexbox<br>
